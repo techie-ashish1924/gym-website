@@ -1,0 +1,257 @@
+/* Products  */
+.products-1 {
+    position: relative;
+    overflow: hidden;
+    height: 550px;
+}
+
+.products-1::before {
+    content: "";
+    width: 100%;
+    height: 550px;
+    flex-shrink: 0;
+    background: url("../images/pexels-taryn-elliott-4099238.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    filter: blur(5px);
+    position: absolute;
+    z-index: -1;
+}
+
+.products-items {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 20px 0;
+}
+.supplement,.machine,.Apparel {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+}
+
+.supplement h2 {
+    color: #000;
+    font-family: "Poppins";
+    font-size: 55px;
+    font-weight: 500;
+}
+
+.supplement div{
+    width: 699px;
+    height: 3px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    background: #000;
+}
+
+.supplement-items {
+    display: flex;
+   justify-content: space-evenly;
+}
+
+.protein-items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    gap: 40px;   
+}
+
+.protein-items img{
+    width: 230px;
+    height: 219.007px;
+    flex-shrink: 0;
+    border-radius: 35px;
+    border: 3px solid black;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.protein-name {
+    width: 206px;
+    height: 48px;
+    flex-shrink: 0;
+    border-radius: 100px;
+    border: 1px solid #FFF;
+    background: #FFA500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    font-family: "Poppins";
+    font-size: 18px;
+    font-weight: 600;
+}
+
+
+
+.products-2 {
+    position: relative;
+    overflow: hidden;
+    height: 550px;
+}
+
+.products-2::before {
+    content: "";
+    width: 100%;
+    height: 550px;
+    flex-shrink: 0;
+    background: url("../images/alina-chernysheva-JA2S6sJWleg-unsplash.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    filter: blur(5px);
+    position: absolute;
+    z-index: -1;
+}
+
+.machine h2{
+
+    color: #000;
+    font-family: "Poppins";
+    font-size: 55px;
+    font-weight: 500;
+
+}
+
+.machine div{
+    width: 500px;
+    height: 3px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    background: #000;
+}
+
+
+
+.machine-items {
+    display: flex;
+   justify-content: space-evenly;
+}
+
+
+.machine-inside-items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    gap: 40px;   
+}
+
+.machine-inside-items img{
+    width: 230px;
+    height: 300px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    border: 2px solid black;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.machine-name {
+    width: 206px;
+    height: 48px;
+    flex-shrink: 0;
+    border-radius: 100px;
+    border: 1px solid #FFF;
+    background: #FFA500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    font-family: "Poppins";
+    font-size: 18px;
+    font-weight: 600;
+}
+
+
+.products-3 {
+    position: relative;
+    overflow: hidden;
+    height: 700px;
+    /* padding-top: 40px; */
+}
+
+.products-3::before {
+    content: "";
+    width: 100%;
+    height: 700px;
+    flex-shrink: 0;
+    background: url("../images/keagan-henman-xPJYL0l5Ii8-unsplash.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    filter: blur(5px);
+    position: absolute;
+    z-index: -1;
+}
+
+
+/* machine  ->  Apparel
+
+machine-items  -> Apparel-items
+
+machine-inside-items - > Apparel-inside-items */
+
+.Apparel h2{
+    color: #000;
+    font-family: "Poppins";
+    font-size: 55px;
+    font-weight: 500;
+    padding-top: 20px;
+    /* padding-bottom: 10px; */
+}
+
+.Apparel div{
+    width: 600px;
+    height: 3px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    background: #000;
+}
+
+.Apparel-items {
+    display: flex;
+   justify-content: space-evenly;
+}
+
+
+.Apparel-inside-items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    gap: 40px;   
+}
+
+.Apparel-inside-items img{
+
+    margin-top: 50px;
+    width: 230px;
+    height: 300px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    border: 2px solid black;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.Apparel-name {
+    width: 206px;
+    height: 48px;
+    flex-shrink: 0;
+    border-radius: 100px;
+    border: 1px solid #FFF;
+    background: #FFA500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    font-family: "Poppins";
+    font-size: 18px;
+    font-weight: 600;
+}

@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+    <link rel="stylesheet" href="../CSS/index.css">
+    <link rel="stylesheet" href="../CSS/blog.css">
+</head>
+<body>
+
+    <nav>
+        <img id="logo" src="../images/fitness logo.png" alt="">
+        <div id="nav-feature">
+            <a href="../Html/index.html">Home</a>
+            <a href="../Html/classes.html">Classes</a>
+            <a href="../Html/products.html">Products</a>
+            <a href="../Html/blog.html">Blogs</a>
+            <button id="join-us" onclick = "openForm()">Join Us</button>
+        </div>
+    </nav>
+
+    <div id="blog1">
+
+        <!-- <div id="blog1-img"> -->
+            <img id="blog1-img" src="../images/dylan-gillis-YJdCZba0TYE-unsplash.jpg" alt="">
+        <!-- </div> -->
+        <p id="blog1-para">
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centrelease of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum
+        </p>
+    </div>
+
+    <div id="blog2">
+        <div id="blog2-inside">
+            <div id="blog2-inside-para">
+                <h2>BENEFITS OF A HEALTHY DIET</h2>
+                <ul>
+                    <li>May help you live longer</li>
+                    <li>Keeps skin, teeth, and eyes healthy.</li>
+                    <li>Supports muscles.</li>
+                    <li>Boosts immunity.</li>
+                    <li>Strengthens bones.</li>
+                    <li>Supports healthy pregnancies and breastfeeding.</li>
+                    <li>Helps the digestive system function.</li>
+                </ul>
+
+            </div>
+            <div id="blog2-inside-img">
+                <img src="../images/pexels-taryn-elliott-4099238.jpg" alt="">
+            </div>
+
+        </div>
+    </div>
+
+    <div id="blog3">
+        <p id="blog3-para">
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centrelease of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum
+        </p>
+
+        <img id="blog3-img" src="../images/pexels-bamboo-ave-18991007.jpg" alt="">
+
+    </div>
+
+
+
+    <div id="footer">
+
+        <div id="footer-logo">
+            <img src="../images/fitness logo.png" alt="">
+            <h2>Prioritize your fitness goals with our world class service</h2>
+        </div>
+        <div id="footer-middle">
+            <h2 id="item1">COMPANY</h2>
+            <h2 id="item2">CONTACT</h2>
+            <h2 id="item3">MORE</h2>
+            <a id="item4" href="">About</a>
+            <a id="item5" href="">Help/FAQs</a>
+            <a id="item6" href="">Program</a>
+            <a id="item7" href="">Careers</a>
+            <a id="item8" href="">Press</a>
+            <a id="item9" href="">Plans</a>
+            <a id="item10" href="">Blogs</a>
+            <a id="item11" href="">Mobile</a>
+            <a id="item12" href="">Method</a>
+            <a id="item13" href="">Terms & condition</a>
+        </div>
+        <div id="footer-tag">
+
+            <h2>Popular Tags</h2>
+            <div id="footer-tag-inside">
+                <button>ABS</button>
+                <button>Workout</button>
+                <button>Nutrition</button>
+                <button>ABS</button>
+                <button>Boxing</button>
+                <button>Trainers</button>
+                <button>Facilities</button>
+            </div>
+        </div>
+    </div>
+    <div id="last-footer">
+        <h2>CopyRights All Rights Reserved</h2>
+    </div>
+
+
+    <div id="pop-up">
+
+        <div id="pop-up-head">
+            <h2>SUBSCRIPTION PLAN</h2>
+        </div>
+        <form id="pop-up-form">
+
+            <span class="close-btn" onclick="closeForm()"><button>close</button></span>
+            <label for="full-name">Full Name:</label>
+            <br><br>
+            <input type="text" placeholder="Name">
+            <br><br>
+            <label for="email">Email:</label>
+            <br><br>
+            <input type="email" placeholder="email">
+            <br><br>
+            <label for="mob-no">Mob no:</label>
+            <br><br>
+            <input type="tel" maxlength="10" name="" id="" placeholder="9999999999">
+            <br><br>
+            <label for="duration">Duration:</label>
+            <br><br>
+            <input type="radio" name="duration" id=""> Monthly &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="radio" name="duration"> Yearly
+            <br><br><label for="mode-payment">Mode of Payment:</label>
+            <br>
+            <br>
+            <input type="radio" name="mode-payment" id=""> Cash &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="radio" name="mode-payment">Online
+            <br><br>
+            <label for="training">Personal Training : <sup>*free with yearly plan</sup></label>
+            <br><br>
+            <input type="radio" name="training">Required
+            <br>
+            <input type="radio" name="training"> Not Required
+            <br><br>
+            <div id="pop-up-form-button">
+                <div id="pop-up-form-button-inside">
+                    <input type="checkbox">
+                    <p>I accept all terms and condition provided in this form</p>
+                </div>
+                <button>BUY PLAN</button>
+               
+            </div>
+            
+
+        </form>
+
+    </div>
+
+    <script src="../JS/index.js"></script>
+
+</body>
+</html>
