@@ -6,19 +6,27 @@
     <title>Blog</title>
     <link rel="stylesheet" href="../CSS/index.css">
     <link rel="stylesheet" href="../CSS/blog.css">
+    <link rel="stylesheet" href="../CSS/navbar.css">
+    <link rel="stylesheet" href="../CSS/joinus.css">
+    <script src="https://kit.fontawesome.com/d443dabb5d.js" crossorigin="anonymous"></script>
 </head>
 <body>
 
-    <nav>
+    <nav id="nav">
         <img id="logo" src="../images/fitness logo.png" alt="">
-        <div id="nav-feature">
+        <div id="nav-features">
             <a href="../index.html">Home</a>
             <a href="../Html/classes.html">Classes</a>
             <a href="../Html/products.html">Products</a>
             <a href="../Html/blog.html">Blogs</a>
             <button id="join-us" onclick = "openForm()">Join Us</button>
         </div>
+
+        <i id="iconaa" style="color: #ffa500;" class="fa-solid fa-bars"></i>
+        <!-- <i id="icon" class="fa-solid fa-bars" style="color: #ffa500;"></i> -->
+        <!-- <h3 id="hello">Hello</h3> -->
     </nav>
+
 
     <div id="blog1">
 
@@ -110,7 +118,7 @@
         </div>
         <form id="pop-up-form">
 
-            <span class="close-btn" onclick="closeForm()"><button>close</button></span>
+            <span class="close-btn" onclick="closeForm()"><button id="cls-btn">close</button></span>
             <label for="full-name">Full Name:</label>
             <br><br>
             <input type="text" placeholder="Name">

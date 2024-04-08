@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>home</title>
     <link rel="stylesheet" href="../CSS/index.css">
+    <link rel="stylesheet" href="./CSS/navbar.css">
+    <link rel="stylesheet" href="./CSS/joinus.css">
+    
     <script src="https://kit.fontawesome.com/d443dabb5d.js" crossorigin="anonymous"></script>
     <!-- <link rel="stylesheet" href=""> -->
 </head>
@@ -19,7 +22,10 @@
             <a href="../Html/blog.html">Blogs</a>
             <button id="join-us" onclick = "openForm()">Join Us</button>
         </div>
-        <i onclick="icon()" id="icon" class="fa-solid fa-bars" style="color: #ffa500;"></i>
+
+        <i id="iconaa" style="color: #ffa500;" class="fa-solid fa-bars"></i>
+        <!-- <i id="icon" class="fa-solid fa-bars" style="color: #ffa500;"></i> -->
+        <!-- <h3 id="hello">Hello</h3> -->
     </nav>
     
     <!-- Middle Section -->
@@ -38,13 +44,13 @@
 
     <div id="icon-div">
 
-        <svg xmlns="http://www.w3.org/2000/svg" width="28" height="31" viewBox="0 0 28 31" fill="none">
+        <svg id="icon-div-l" xmlns="http://www.w3.org/2000/svg" width="28" height="31" viewBox="0 0 28 31" fill="none">
             <path d="M23.8062 4.37741C21.1875 1.55327 17.7 0 13.9937 0C6.34375 0 0.11875 6.69723 0.11875 14.9276C0.11875 17.5567 0.75625 20.1253 1.96875 22.3913L0 30.1241L7.35625 28.0463C9.38125 29.2365 11.6625 29.8619 13.9875 29.8619H13.9937C21.6375 29.8619 28 23.1646 28 14.9343C28 10.9469 26.425 7.20154 23.8062 4.37741ZM13.9937 27.347C11.9187 27.347 9.8875 26.7486 8.11875 25.6189L7.7 25.35L3.3375 26.5805L4.5 22.0013L4.225 21.5307C3.06875 19.5538 2.4625 17.2743 2.4625 14.9276C2.4625 8.08913 7.6375 2.52155 14 2.52155C17.0812 2.52155 19.975 3.81258 22.15 6.1593C24.325 8.50602 25.6625 11.6193 25.6562 14.9343C25.6562 21.7794 20.35 27.347 13.9937 27.347ZM20.3188 18.0543C19.975 17.866 18.2688 16.965 17.95 16.8439C17.6313 16.7162 17.4 16.6557 17.1688 17.0322C16.9375 17.4088 16.275 18.2426 16.0688 18.4981C15.8688 18.7469 15.6625 18.7805 15.3188 18.5922C13.2812 17.4962 11.9438 16.6355 10.6 14.1543C10.2438 13.4953 10.9562 13.5424 11.6187 12.1169C11.7312 11.8681 11.675 11.6529 11.5875 11.4646C11.5 11.2764 10.8063 9.44067 10.5188 8.6943C10.2375 7.96809 9.95 8.06895 9.7375 8.0555C9.5375 8.04206 9.30625 8.04206 9.075 8.04206C8.84375 8.04206 8.46875 8.13619 8.15 8.50602C7.83125 8.88257 6.9375 9.78361 6.9375 11.6193C6.9375 13.455 8.18125 15.2301 8.35 15.4789C8.525 15.7277 10.7937 19.4932 14.275 21.1138C16.475 22.1358 17.3375 22.2232 18.4375 22.0484C19.1063 21.9408 20.4875 21.1474 20.775 20.2732C21.0625 19.3991 21.0625 18.6527 20.975 18.4981C20.8938 18.33 20.6625 18.2358 20.3188 18.0543Z" fill="black"/>
         </svg>
-        <svg xmlns="http://www.w3.org/2000/svg" width="28" height="31" viewBox="0 0 28 31" fill="none">
+        <svg id="icon-div-l" xmlns="http://www.w3.org/2000/svg" width="28" height="31" viewBox="0 0 28 31" fill="none">
             <path d="M28 15.1537C28 6.7825 21.7339 0 14 0C6.26613 0 0 6.7825 0 15.1537C0 22.7171 5.1196 28.9863 11.8125 30.1241V19.5342H8.25605V15.1537H11.8125V11.815C11.8125 8.01741 13.9012 5.91972 17.1003 5.91972C18.6324 5.91972 20.2345 6.21546 20.2345 6.21546V9.94278H18.4687C16.73 9.94278 16.1875 11.1111 16.1875 12.3093V15.1537H20.0702L19.4493 19.5342H16.1875V30.1241C22.8804 28.9863 28 22.7171 28 15.1537Z" fill="black"/>
         </svg>
-        <svg xmlns="http://www.w3.org/2000/svg" width="28" height="31" viewBox="0 0 28 31" fill="none">
+        <svg id="icon-div-l" xmlns="http://www.w3.org/2000/svg" width="28" height="31" viewBox="0 0 28 31" fill="none">
             <path d="M27.4149 4.7134C27.0929 2.8581 26.1441 1.39693 24.9394 0.901056C22.7558 0 14 0 14 0C14 0 5.2442 0 3.06058 0.901056C1.8559 1.397 0.907111 2.8581 0.585087 4.7134C0 8.07624 0 15.0925 0 15.0925C0 15.0925 0 22.1087 0.585087 25.4716C0.907111 27.3269 1.8559 28.7272 3.06058 29.223C5.2442 30.1241 14 30.1241 14 30.1241C14 30.1241 22.7558 30.1241 24.9394 29.223C26.1441 28.7272 27.0929 27.3269 27.4149 25.4716C28 22.1087 28 15.0925 28 15.0925C28 15.0925 28 8.07624 27.4149 4.7134ZM11.1363 21.4627V8.72226L18.4545 15.0926L11.1363 21.4627Z" fill="black"/>
         </svg>
         
@@ -61,27 +67,28 @@
         <div id="fitness-plan-inside">
             <div>
                     <img src="../images/icons8-weight-pound-50.png" alt="">
-                Wieght loss
+                <h4>Wieght loss</h4>
             </div>
             <div>
                 <img src="../images/icons8-yoga-50.png" alt="">
-                Classic Yoga
+                <h4>Classic Yoga</h4>
+
             </div>
             <div>
                 <img src="../images/icons8-cycling-50.png" alt="">
-                Cycling
+                <h4>Cycling</h4>
             </div>
             <div>
                 <img src="../images/icons8-biceps-50.png" alt="">
-                Body Building
+                <h4>Body Building</h4>
             </div>
             <div>
                 <img src="../images/icons8-gym-50.png" alt="">
-                Hypertropy
+                <h4>Hypertropy</h4>
             </div>
             <div>
                 <img src="../images/icons8-running-50.png" alt="">
-                Running
+                <h4>Running</h4>
             </div>
         </div>
 
@@ -94,32 +101,32 @@
         <br>
         <br><br><br><br>
         <div id="inside">
-            <div>
+            <div id="inside-div">
                 <h2>Basic</h2>
                 <p>for 12 months</p>
-                <br><br>
+                <br>
                 <h2>800/Month</h2>
                 <p>for streaming</p>
-                <br><br>
+                <br>
                 <button id="inside-button">Select Plan</button>
             </div>
-            <div>
+            <div id="inside-div">
                 <h2>Intermediate</h2>
                 <p>for 12 months</p>
-                <br><br>
+                <br>
                 <h2>1000/Month</h2>
                 <p>for streaming</p>
-                <br><br>
+                <br>
                 
                 <button id="inside-button">Select Plan</button>
             </div>
-            <div>
+            <div id="inside-div">
                 <h2>Advance</h2>
                 <p>for 12 months</p>
-                <br><br>
+                <br>
                 <h2>1500/Month</h2>
                 <p>for streaming</p>
-                <br><br>
+                <br>
                 <button id="inside-button">Select Plan</button>
             </div>
         </div>
@@ -219,6 +226,8 @@
         <h2>CopyRights All Rights Reserved</h2>
     </div>
 
+    
+
     <div id="pop-up">
 
         <div id="pop-up-head">
@@ -226,7 +235,7 @@
         </div>
         <form id="pop-up-form">
 
-            <span class="close-btn" onclick="closeForm()"><button>close</button></span>
+            <span class="close-btn" onclick="closeForm()"><button id="cls-btn">close</button></span>
             <label for="full-name">Full Name:</label>
             <br><br>
             <input type="text" placeholder="Name">
@@ -241,19 +250,19 @@
             <br><br>
             <label for="duration">Duration:</label>
             <br><br>
-            <input type="radio" name="duration" id=""> Monthly &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <input type="radio" name="duration"> Yearly
+            <input type="radio" name="duration" id="radio-inp"> Monthly &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="radio" name="duration" id="radio-inp"> Yearly
             <br><br><label for="mode-payment">Mode of Payment:</label>
             <br>
             <br>
-            <input type="radio" name="mode-payment" id=""> Cash &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <input type="radio" name="mode-payment">Online
+            <input type="radio" name="mode-payment" id="radio-inp"> Cash &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="radio" name="mode-payment" id="radio-inp">Online
             <br><br>
             <label for="training">Personal Training : <sup>*free with yearly plan</sup></label>
             <br><br>
-            <input type="radio" name="training">Required
+            <input type="radio" name="training" id="radio-inp">Required
             <br>
-            <input type="radio" name="training"> Not Required
+            <input type="radio" name="training" id="radio-inp"> Not Required
             <br><br>
             <div id="pop-up-form-button">
                 <div id="pop-up-form-button-inside">

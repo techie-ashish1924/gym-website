@@ -1,0 +1,138 @@
+
+#iconaa{
+    display: none;
+  
+}
+
+nav{
+    width: 94.9%;
+    height: 12vh;
+    background-color:#524D4D;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 2.5vw;
+    padding-right: 2.5vw; 
+    
+}
+
+#logo{
+    padding-top: 1.5vh;
+    height: 12vh;
+    width: 12vw;
+
+}
+
+#nav-features{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+a{
+    text-decoration: none;
+    margin-left: 2vw;
+    margin-right: 3vw;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 2vw;
+    font-style: normal;
+    font-weight: 400;
+}
+
+a:hover{
+
+    text-decoration: underline;
+    text-decoration-color: #FFA500;
+    cursor: pointer;
+}
+
+#join-us{
+    width: 8vw;
+    height: 7vh;
+    color:black;
+    border-radius: 1.5vw;
+    background: #FFA500;
+    font-size: 1.3vw;
+}
+
+@media only screen and (min-width:100px) and (max-width:1138px){
+
+
+    body{
+
+        overflow-x: hidden;
+    }
+
+    #logo{
+        padding-top: 1.5vh;
+        height: 10vh;
+        width: 10vw;
+    
+    }
+    nav{
+        width: 95vw;
+        height: 10vh;
+        /* border: 2px solid red; */
+    }
+    a{
+        text-decoration: none;
+        font-size: 2vw;
+    }
+
+    #join-us{
+        font-size: 2vw;
+        width: 8vw;
+        height: 5vh;
+    }
+}
+
+@media only screen and (max-width: 481px) {
+
+    #iconaa{
+        display:flex;
+        /* color: #ffa500; */
+        margin-right: 2vh;
+
+        /* border: 2px solid red; */
+
+    }
+    #logo{
+        padding-top: 1.5vh;
+        height: 49;
+        width: 20vw;
+    
+    }
+
+    #nav-features{
+
+        display: none;
+        flex-direction: column;
+        gap: 2vw;
+        /* border: 2px solid red; */
+    }
+
+    .new-nav{
+        height: 24vh;
+    }
+
+    a{
+        text-decoration: none;
+        color: #FFF;
+        font-family: Poppins;
+        font-size: 4vw;
+        font-style: normal;
+        font-weight: 300;
+    }
+
+    #join-us{
+        font-size: 5vw;
+        width: 25vw;
+        height: 5vh;
+    }
+    
+}

@@ -16,22 +16,32 @@ function closeForm() {
 
 // const icon = document.getElementById('icon');
 
+const nav_side_btn = document.getElementById('iconaa');
 
-function icon()
+const icon_div = document.getElementById('icon-div');
+
+nav_side_btn.addEventListener('click',function()
 {
+    console.log('click');
     const nav = document.getElementById('nav');
     const nav_item = document.getElementById('nav-features');
-    // nav.style.height = '30vh';
-    if(nav_item.style.display == 'block')
+
+    if(nav_item.style.display == 'flex')
     {
         nav_item.style.display = 'none';
+        // icon_div.style.top = "90vh"
+        location.reload();
     }
     else{
-        nav_item.style.display = 'block';
-    }
-    // nav_item.style.display = 'block';
-    // nav_item.style.display = 'flex';
-    // nav_item.style.flexDirection = 'coloumn';
-    
+        
+        nav_item.style.display = 'flex';
+        nav_item.classList.toggle('show-data');
+        nav.classList.toggle('new-nav');
 
-}
+        icon_div.style.top = "70vh"
+        console.log(nav);
+        // nav_item.style.flexDirection = 'column';
+        
+    }
+
+})

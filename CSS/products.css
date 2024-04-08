@@ -255,3 +255,113 @@ machine-inside-items - > Apparel-inside-items */
     font-size: 18px;
     font-weight: 600;
 }
+
+
+@media only screen and (min-width:100px) and (max-width:1138px){
+
+    #pop-up{
+        display: none;
+    }
+
+}
+
+
+@media only screen and (max-width: 480px) {
+
+
+    .supplement h2{
+
+        margin-top: 2vh;
+        font-size: 8vw;
+        font-weight: 600;
+      
+    }
+
+    .supplement div{
+
+       width: 90vw;
+      
+    }
+
+    .supplement-items{
+        display: flex;
+        flex-direction: column;
+
+        gap: 12vh;
+   
+    }
+    .products-1 {
+      
+        height: 200vh;
+    }
+    
+    .products-1::before {
+ 
+        height: 200vh;
+    }
+
+
+    .products-2 {
+      
+        height: 240vh;
+    }
+    
+    .products-2::before {
+ 
+        height: 240vh;
+    }
+
+    .machine h2{
+
+        font-size: 8vw;
+        margin-top: 2vh;
+        font-weight: 600;
+
+    }
+
+    .machine div{
+
+        width: 70vw;
+
+    }
+
+    .machine-items{
+        display: flex;
+        flex-direction: column;
+        gap: 15vh;
+      
+    }
+
+
+    .products-3 {
+      
+        height: 250vh;
+    }
+    
+    .products-3::before {
+ 
+        height: 250vh;
+    }
+
+    .Apparel h2{
+
+        font-size: 8vw;
+        margin-top: 2vh;
+        font-weight: 600;
+        /* border: 2px solid red; */
+    }
+
+    .Apparel div{
+
+        width: 90vw;
+
+    }
+
+    .Apparel-items{
+        display: flex;
+        flex-direction: column;
+        gap: 10vh;
+      
+    }
+
+}

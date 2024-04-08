@@ -6,29 +6,37 @@
     <title>classes</title>
     <link rel="stylesheet" href="../CSS/classes.css">
     <link rel="stylesheet" href="../CSS/index.css">
+    <link rel="stylesheet" href="../CSS/navbar.css">
+    <link rel="stylesheet" href="../CSS/joinus.css">
+    <script src="https://kit.fontawesome.com/d443dabb5d.js" crossorigin="anonymous"></script>
 </head>
 <body>
 
-    <nav>
+    <nav id="nav">
         <img id="logo" src="../images/fitness logo.png" alt="">
-        <div id="nav-feature">
+        <div id="nav-features">
             <a href="../index.html">Home</a>
             <a href="../Html/classes.html">Classes</a>
             <a href="../Html/products.html">Products</a>
-            <a>Blogs</a>
+            <a href="../Html/blog.html">Blogs</a>
             <button id="join-us" onclick = "openForm()">Join Us</button>
         </div>
+
+        <i id="iconaa" style="color: #ffa500;" class="fa-solid fa-bars"></i>
+        <!-- <i id="icon" class="fa-solid fa-bars" style="color: #ffa500;"></i> -->
+        <!-- <h3 id="hello">Hello</h3> -->
     </nav>
+
 
     <div id="our-class">
 
-        <h2>Our Classes</h2>
+        <h2 id="our-class-h2">Our Classes</h2>
         <div id="our-class-inside">
 
             <div id="our-class-inside-div">
                 <img src="../images/gym3.jpg" alt="">
                 <br>
-                <span>&nbsp;&nbsp;6:30 -7:30 AM</span>
+                <span>6:30 -7:30 AM</span>
                 <br>
                 <button>Power Excello</button>
 
@@ -83,10 +91,10 @@
     <div id="background">
 
        
-        <button id="btn-left"><svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 35 35" fill="none">
+        <button id="btn-left"><svg id="btn-svg-left" xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 35 35" fill="none">
             <path d="M1.19172 15.6412L24.2217 0.770853C25.8134 -0.256951 28.3874 -0.256951 29.9622 0.770853L33.7892 3.24196C35.381 4.26976 35.381 5.93174 33.7892 6.94861L17.482 17.5L33.8062 28.0405C35.3979 29.0683 35.3979 30.7302 33.8062 31.7471L29.9791 34.2291C28.3874 35.257 25.8134 35.257 24.2386 34.2291L1.20866 19.3588C-0.400052 18.331 -0.400052 16.669 1.19172 15.6412Z" fill="black"/>
             </svg></button>
-        <button id="btn-right"><svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 35 35" fill="none">
+        <button id="btn-right"><svg id="btn-svg-right" xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 35 35" fill="none">
             <path d="M34.0717 18.8602L8.40463 34.4366C7.16673 35.1878 5.15979 35.1878 3.92203 34.4366L0.92839 32.6198C-0.307392 31.8699 -0.309768 30.6544 0.923108 29.9027L21.2647 17.5L0.923108 5.0973C-0.309768 4.34558 -0.307392 3.13012 0.92839 2.38017L3.92203 0.563428C5.15992 -0.187809 7.16686 -0.187809 8.40463 0.563428L34.0716 16.1398C35.3095 16.891 35.3095 18.1089 34.0717 18.8602Z" fill="black"/>
             </svg></button>
     </div>
@@ -138,7 +146,7 @@
         </div>
         <form id="pop-up-form">
 
-            <span class="close-btn" onclick="closeForm()"><button>close</button></span>
+            <span class="close-btn" onclick="closeForm()"><button id="cls-btn">close</button></span>
             <label for="full-name">Full Name:</label>
             <br><br>
             <input type="text" placeholder="Name">

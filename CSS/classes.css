@@ -181,6 +181,7 @@ line-height: normal;
 
     width: 99%;
     height: 40vh;
+    /* position: absolute; */
     background: rgba(255, 165, 0, 0.34);
    
 }
@@ -216,6 +217,256 @@ line-height: normal;
     margin-right: 5vh;
 
 }
+
+
+
+
+
+
+@media only screen and (min-width:100px) and (max-width:1138px){
+
+
+    #pop-up{
+        display: none;
+    }
+
+
+    #our-class{
+
+        width: 100%;
+        height: 60vh;
+
+    }
+    
+    
+#our-class h2{
+    color: #FFF;
+
+    font-family: Poppins;
+    font-size: 7vw;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-decoration: underline;
+    text-decoration-skip: ink;
+    text-decoration-color:white;
+    padding-bottom: 12vh;
+
+}
+    
+    
+    #our-class-inside{
+    
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    
+        /* border: 2px solid red; */
+    
+    }
+    
+    
+    #our-class-inside-div img{
+    
+        height: 20vh; 
+        width: 20vw;
+        border: 2px solid  #FFF;
+        border-radius: 3vw;
+      
+    
+    }
+    
+
+    #our-class-inside-div button{
+
+        color: #FFF;
+        padding: 1vw;
+        font-family: Poppins;
+        font-size: 2.3vw;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+    
+        border-radius: 1.2vw;
+        border: 1px solid #000;
+    
+        background: #C53B3B;
+    
+    }
+    
+    #our-training-inside-1{
+
+        height: 15vh;    
+       
+    }
+    
+    #our-training-inside-2{
+    
+        height: 30vh;   
+       
+    }
+
+    #our-training-inside-h h2{
+   
+        margin-top: 3vh;
+        font-size: 5vw;
+    
+    }
+
+    #our-training-partner-inside img{
+
+        height: 27vh;
+        width: 20vw;
+    
+        border-radius: 4px;
+        border: 2px solid #000;
+        box-shadow: 0px 5px 4px 0px rgba(0, 0, 0, 0.25);
+    }
+    
+
+    #background{
+
+        width: 100%;
+        height: 40vh;
+        background-image: url('../images/crouserImage/image2.jpg');
+        background-repeat: no-repeat;
+        background-size: 100vw 40vh;
+    
+    
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    
+    }
+    
+    #background button{
+        background-color: transparent;
+    }
+    
+    #background button:nth-child(1){
+    
+        margin-left: 5vh;
+    
+    }
+    
+    #background button:nth-child(2){
+    
+        margin-right: 5vh;
+    
+    }
+    
+}
+
+@media only screen and (max-width: 480px) {
+
+    /* #iconaa{
+        display: flex;
+    } */
+   
+    #our-class{
+        height: 230vh;
+    }
+
+    #our-class-inside{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 13vh;
+    }
+
+    #our-class-inside-div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+ 
+    }
+
+    #our-class-inside-div img{
+         
+        width: 60vw;
+        height: 40vh;
+    }
+
+    #our-class-inside-div span{
+         
+        font-size: 5vw;
+    }
+
+    #our-class-inside-div button{
+         
+        padding: 3vw;
+        font-size: 7vw;
+    }
+
+    #our-training-inside-1{
+        height: 70vh;
+        
+    }
+
+    #our-training-inside-h h2{
+        font-size: 5vh;
+        margin-top: -6vh;
+        font-weight: 600;
+    }
+
+    #our-training-inside-2{
+        height: 70vh;
+        position: relative;
+        
+    }
+
+    #our-training-partner{
+
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+
+        position: absolute;
+
+        margin-top: -63vh;
+        gap: 20vw;
+
+        align-items: center;
+
+    }
+
+    #our-training-partner-inside span{
+
+        font-size: 5vw;
+        font-weight: 500;
+    }
+
+    #our-training-partner-inside img{
+
+       
+        width: 50vw;
+        height: 35vh;
+    }
+
+    #btn-svg-right{
+
+        width: 4vw;
+        height: 4vh;   
+        margin-right: -10vw;
+        /* fon-size: 5vw; */
+    }
+    #btn-svg-left{
+
+        width: 4vw;
+        height: 4vh;
+        margin-left: -10vw;   
+        /* fon-size: 5vw; */
+    }
+
+
+
+}
+
+
 
 
 

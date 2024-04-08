@@ -1,0 +1,217 @@
+
+#our-class{
+
+    width: 100%;
+    height: 120vh;
+
+
+    background-image: url('../images/bg\ 1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 3vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#our-class h2{
+    color: #FFF;
+
+    font-family: Poppins;
+    font-size: 5vw;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-decoration: underline;
+    text-decoration-skip: ink;
+    text-decoration-color:white;
+    padding-bottom: 12vh;
+
+}
+
+#our-class-inside{
+
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+
+
+#our-class-inside-div img{
+
+    height: 50vh;
+    width: 20vw;
+    border: 2px solid  #FFF;
+    border-radius: 3vw;
+
+}
+
+
+#our-class-inside-div span{
+
+    color: #FFF;
+
+font-family: Poppins;
+font-size: 2.8vw;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+#our-class-inside-div button{
+
+    color: #FFF;
+    padding: 1vw;
+    font-family: Poppins;
+    font-size: 2.7vw;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+
+    border-radius: 1.2vw;
+    border: 1px solid #000;
+
+    background: #C53B3B;
+
+}
+
+
+#our-class-inside-div{
+
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+#our-training{
+
+    width: 100vw;
+    height: 100vh;
+     border: 2px solid black; 
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#our-training-partner{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+
+
+#our-training-inside-h h2{
+   
+    color: #000;
+    font-family: Poppins;
+    font-size: 3vw;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-decoration: underline;
+
+}
+
+
+#our-training-inside-h{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20vh;
+
+}
+
+#our-training-partner-inside{
+
+    display: flex;
+    flex-direction: column;
+  
+    align-items: center;
+
+    margin-top: -15vw;
+
+}
+
+#our-training-partner-inside span{
+
+    color: #FFF;
+    padding: 1vw;
+    font-family: "Radio Canada";
+    font-size: 2.5vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border-radius: 1vw;
+    background: #4D4848;
+
+}
+
+#our-training-partner-inside img{
+
+    height: 50vh;
+    width: 20vw;
+
+    border-radius: 4px;
+    border: 2px solid #000;
+    box-shadow: 0px 5px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+#our-training-inside-1{
+
+    width: 100%;
+    height: 30vh;
+    background: white;
+
+   
+}
+
+#our-training-inside-2{
+
+    width: 99%;
+    height: 40vh;
+    background: rgba(255, 165, 0, 0.34);
+   
+}
+
+#background{
+
+    width: 100%;
+    height: 80vh;
+    background-image: url('../images/crouserImage/image2.jpg');
+    background-repeat: no-repeat;
+    background-size: 100vw 40vw;
+
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+#background button{
+    background-color: transparent;
+}
+
+#background button:nth-child(1){
+
+    margin-left: 5vh;
+
+}
+
+#background button:nth-child(2){
+
+    margin-right: 5vh;
+
+}
